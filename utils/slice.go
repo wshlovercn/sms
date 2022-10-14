@@ -21,7 +21,6 @@ type SimpleType interface {
 }
 
 func InSlice[T SimpleType](s []T, i T) bool {
-
 	if len(s) == 0 {
 		return false
 	}
