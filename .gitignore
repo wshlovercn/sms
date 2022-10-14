@@ -1,0 +1,35 @@
+# govendor
+.cache
+
+# golang
+bin/
+!./**/pkg/
+
+# .DS_Store
+.DS_Store
+
+# log
+*.log
+*.aof
+
+.vscode
+.idea
+
+# dev config
+*.dev.yaml
+*.test.yaml
+*.test.yaml2
+
+tmp
+scripts/sync.sh
+
+# redis log
+./appendonly-7000.aof
+./nodes-7000.conf
+nodes-7000.conf
+
+# go build bin
+admin/admin
+
+# tmp
+gen_channel.go
