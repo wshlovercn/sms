@@ -30,6 +30,5 @@ func InSlice[T SimpleType](s []T, i T) bool {
 			return true
 		}
 	}
-
 	return false
 }

@@ -29,4 +29,6 @@ func TestInSlice(t *testing.T) {
 	assert.True(t, InSlice([]*int{&i1, &i2, &i3, &i4}, &i1))
 	assert.False(t, InSlice([]*int{&i1, &i2, &i3, &i4}, &i6))
 	assert.False(t, InSlice([]*int{&i1, &i2, &i3, &i4}, &i5))
+
+	assert.True(t, InSlice([]*int{&i1, &i2, &i3, &i4}, &i5))
 }
